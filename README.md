@@ -1,4 +1,4 @@
-#MyoCoach : GUI
+# MyoCoach : GUI
 
 Ce projet s'inscrit dans le cadre d'un produit développé par la société Orthopus :  [Le MyoCoach](https://wiki.orthopus.com/myocoach/home)
 
@@ -33,22 +33,22 @@ $ git clone %%https://github.com/orthopus/MyoCoach_GUI.git%%
 
 ou télécharger le fichier zip et décompresser le.
 
-4. lancer l'application avec votre terminal
+5. lancer l'application avec votre terminal
 
 ```bash
 $ cd %%MyoCoach_GUI%%
 $ python3 MyoCoach.py
 ```
 
-##Layout
+## Layout
 
 ![Signal Widget](MyoCoach_ScreenShot_Signal.png)
 ![FlappyBird Widget](MyoCoach_ScreenShot_FlappyBird.png)
 
-##Auteur
+## Auteur
 
 * **David Gouaillier** - *Initial work*
 
-##Licence
+## Licence
 
 Ce projet est sous une licence Open Source CC BY-SA 4.0 - regarder le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
