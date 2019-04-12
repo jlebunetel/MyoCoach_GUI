@@ -40,7 +40,7 @@ $ cd MyoCoach_GUI
 $ python3 MyoCoach.py
 ```
 
-## Layout
+## ScreenShot
 
 ![Signal Widget](MyoCoach_ScreenShot_Signal.png)
 ![FlappyBird Widget](MyoCoach_ScreenShot_FlappyBird.png)
