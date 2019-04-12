@@ -28,7 +28,7 @@ $ pip install matplotlib
 4. cloner le répertoire de l'application
 
 ```bash
-$ git clone %%https://github.com/orthopus/MyoCoach_GUI.git%%
+$ git clone https://github.com/orthopus/MyoCoach_GUI.git
 ```
 
 ou télécharger le fichier zip et décompresser le.
@@ -36,7 +36,7 @@ ou télécharger le fichier zip et décompresser le.
 5. lancer l'application avec votre terminal
 
 ```bash
-$ cd %%MyoCoach_GUI%%
+$ cd MyoCoach_GUI
 $ python3 MyoCoach.py
 ```
 
