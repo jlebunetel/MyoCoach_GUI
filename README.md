@@ -2,42 +2,46 @@
 
 Ce projet s'inscrit dans le cadre d'un produit développé par la société Orthopus :  [Le MyoCoach](https://wiki.orthopus.com/myocoach/home)
 
-Cette application permet la visualisation des signaux EMG et permet aux utilisateurs de s'entrainer en observant les signaux brut ou à travers un jeux qui est un clone inspiré de [FlapPyBird](https://github.com/sourabhv/FlapPyBird) avec un système de jeux différents. 
+Cette application permet la visualisation des signaux EMG et permet aux utilisateurs de s'entrainer en observant les signaux brut ou à travers un jeux qui est un clone inspiré de [FlapPyBird](https://github.com/sourabhv/FlapPyBird) avec un système de jeux différents.
 
 L'application MyoCoach est codé en python avec PyQt5
 
-## Installation (Tester sous MacOS)
+## Installation
 
-1. Installer [Python 3.x](https://www.python.org/downloads) (recommandé)
+Testé sous MacOS et Linux.
 
-2. Installer [PIP](https://techworm.net/programming/install-pip-python-mac-windows-linux/)
+### 1. Téléchargement des sources
 
-```bash
-$ sudo easy_install pip
+[Téléchargez ce dépôt](https://github.com/orthopus/MyoCoach_GUI/archive/master.zip) et décompressez le dans le répertoire de votre choix. Renommez le dossier `MyoCoach_GUI-master` en `MyoCoach_GUI`.
+
+Il est possible de cloner directement ce dépôt dans le répertoire de votre choix :
+
+```
+$ git clone git@github.com:orthopus/MyoCoach_GUI.git
 ```
 
-3. Installer les autres packages nécessaire à l'application (pyQt5, serial, numpy, matplotlib...)
+### 2. Installation des dépendances
 
-```bash
-$ pip install pyqt5
-$ pip install pyserial
-$ pip install numpy
-$ pip install matplotlib
+Installer les paquets suivants :
+ * [Python](https://www.python.org/downloads) (3.6.x ou supérieur) ;
+ * [pip](https://techworm.net/programming/install-pip-python-mac-windows-linux/) (19.0.x ou supérieur) ;
+ * virtualenv (15.1.x ou supérieur).
+
+### 3. Installation du programme principal
+
+Dans un terminal, aller dans le dossier `MyoCoach_GUI` et lancer l'installation :
+
+```
+$ cd MyoCoach_GUI/
+$ make install
 ```
 
-4. cloner le répertoire de l'application
+Cette commande crée un _virtualenv_ et installe les dépendances nécessaires à l'application. Ces dépendances sont listées dans le fichier [requirements.txt](requirements.txt).
 
-```bash
-$ git clone https://github.com/orthopus/MyoCoach_GUI.git
+### 4. Lancer l'application
+
 ```
-
-ou télécharger le fichier zip et décompresser le.
-
-5. lancer l'application avec votre terminal
-
-```bash
-$ cd MyoCoach_GUI
-$ python3 MyoCoach.py
+$ make play
 ```
 
 ## ScreenShot
