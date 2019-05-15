@@ -230,7 +230,7 @@ class MyoCoach(QtWidgets.QMainWindow, QtWidgets.QWidget):
         # on a serial port description
         for p in ports:
             # if Ardunio find get port information
-            if p.description.startswith("Arduino"):
+            if (p.description.startswith("Arduino") or p.description.startswith("ttyACM")):
                 self.arduinoDesc = p.description
                 self.arduinoPortName = p.device
         # Print Arduino information on The Action of the Connection Menu
