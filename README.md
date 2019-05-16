@@ -25,7 +25,11 @@ $ git clone git@github.com:orthopus/MyoCoach_GUI.git
 Installer les paquets suivants :
  * [Python](https://www.python.org/downloads) (3.6.x ou supérieur) ;
  * [pip](https://techworm.net/programming/install-pip-python-mac-windows-linux/) (19.0.x ou supérieur) ;
- * virtualenv (15.1.x ou supérieur).
+
+Installer `virtualenv` :
+```
+$ pip install virtualenv
+```
 
 ### 3. Installation du programme principal
 
