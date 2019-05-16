@@ -107,7 +107,7 @@ class MyoCoach(QtWidgets.QMainWindow, QtWidgets.QWidget):
         msgBox.setWindowTitle('About ' + self.appName)
         msgBox.setIcon(QtWidgets.QMessageBox.Information)
         msgBox.setTextFormat( QtCore.Qt.RichText )
-        msgBox.setIconPixmap( QtGui.QPixmap('Assets/orthopus.png') )
+        msgBox.setIconPixmap( QtGui.QPixmap('Assets/logo.png') )
         msgBox.setText( "<br><br><br>"
                        + self.appName + " v" + self.version + "<br>"
                        + "2019 Orthopus<br><br>"
@@ -311,7 +311,7 @@ class MyoCoach(QtWidgets.QMainWindow, QtWidgets.QWidget):
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     # Set the ORTHOPUS icon on the application
-    app.setWindowIcon(QtGui.QIcon('Assets/orthopus.png'))
+    app.setWindowIcon(QtGui.QIcon('Assets/logo.png'))
     ex = MyoCoach()
     ex.show()
     sys.exit(app.exec_())
